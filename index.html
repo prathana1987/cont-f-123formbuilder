@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to your 123FormBuilder account</title>
+    <link rel="shortcut icon" href="https://cdn.123formbuilder.com/images3/logos/123-favicon@2x.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+           <a href="https://www.123formbuilder.com/"><img src="assets/image/logo.png"></a> 
+        </div>
+        <div class="menu">
+             <button><a href="#">sign up</a></button>
+             <p>don't have an account?</p>
+        </div>
+    </div>
+<div class="main-sec">
+    <div class="back-image">
+    </div>
+    <div class="contact-part">
+        <div class="main-part">
+            <h1>login</h1>
+            <form>
+                <p>username/email</p>
+                <input type="text">
+                <p>password</p>
+                <input type="password">
+                    <div class="ck-box">
+                        <input type="checkbox" id="forget">
+                         <label for="forget">keep me logged in</label>
+                    </div>
+                <a href="#">Forgot your Password?</a>
+                <button>login</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p>or login using</p>
+            <a href="https://www.facebook.com/"><img src="assets/image/f-.png"></a>
+            <a href="https://www.google.com"><img src="assets/image/g-.png"></a>
+            <a href="https://www.microsoft.com"><img src="assets/image/m-.png"></a>
+    
+        </div>
+</div>
+    
+</div>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script>
+    $('.main-sec .contact-part .main-part .ck-box input').click(function(){
+        $('.main-sec .contact-part .main-part .ck-box input').css('background-color','white');
+    });
+
+    // $(' input:nth-child(1)').click(function(){
+    // if() {
+    //     $('input').html("email or username can be empty!").css('border-color','red').css('border-style','solid');
+    // } else {
+    //     $('input').html(' ');
+    // }
+    // });
+
+</script>
+</body>
+</html>

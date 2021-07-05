@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+.logo   {
+    width: 40%;
+    height: 100px;
+    background-color:#E1F2FE;
+    float: left;
+}
+.logo img {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.menu button {
+    border: 1px solid #0372f2;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 150px;
+    height: 45px;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+}
+.menu p {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #444;
+    float: right;
+    margin-left: 230px;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.menu a {
+    color: #0372f2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.main-sec .back-image {
+    width: 40%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(199, 233, 247, 0.3), rgb(154, 215, 240, .3)), url('../image/banner\ image.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.main-sec :before {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.main-sec .contact-part {
+    width: 56%;
+    height: 100vh;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.contact-part .main-part {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+     top: 50px;
+     left: 100px;
+     right: 0px;
+     margin: auto;
+    background-color: white;
+    margin-left: 10px;
+    }
+    .main-sec .contact-part .main-part  h1{
+        font-size: 26px;
+        text-transform: capitalize;
+    }
+    .main-sec .contact-part .main-part input {
+        width: 60%;
+        height: 30px;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    .main-sec .contact-part .main-part p {
+        color: #999;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .main-sec .contact-part .main-part .ck-box input {
+        display: inline-block;
+        color: #999;
+        background-color: white;
+        width: 15px;
+        height: 15px;
+    }
+    .main-sec .contact-part .main-part .ck-box input :focus {
+        background-color: white;
+    }
+    .main-sec .contact-part .main-part .ck-box label {
+        display: inline-block;
+        color: #888;
+        font-size: 13px;
+        margin-top: 10px;
+
+    }
+    .main-sec .contact-part .main-part a {
+        display: block;
+        color: #0372f2 ;
+        text-decoration: none;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .main-sec .contact-part .main-part button {
+        width: 60%;
+        height: 30px;
+        margin-top: 10px;
+        border: 1px solid #0372f2 ;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        outline: none;
+        background-color:#0372f2 ;
+        text-transform: uppercase;
+    }
+    .main-sec .contact-part .main-part button:hover {
+        cursor: pointer;
+    }
+
+    .main-sec .contact-part .footer {
+        width: 100%;
+        height: 200px;
+        /* background-color: tomato; */
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+        transform: translate(-30px, 80px) ;
+
+    }
+    .main-sec .contact-part .footer p {
+        color: #BBB;
+        text-transform: uppercase;
+    }
+    .main-sec .contact-part .footer a {
+        display: inline-block;
+    }
+    
+
+
